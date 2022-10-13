@@ -1,4 +1,4 @@
-.App-heading, .Chat-online, .UserList-heading, .arrow-up, .arrow-down, .score, .UsersTyping, .sub-flair, .sidebar-link, .sidebar--heading, .game_screen-title, .casino-game-leaderboard-info, .ChatMessage-timestamp, .card-title, .form-inline.search .form-control, .post-actions .list-inline, .UserInput-input, .ChatMessage-bottom, .comment-box, .comment-text, .comment-actions, .UserInput-emoji, .ChatMessage-actions-button, .UserList, .text-success, .slots_reels, .lottery-page--wrapper, .table, .flipped-playing-card {
+.App-heading, .Chat-online, .UserList-heading, .arrow-up, .arrow-down, .score, .UsersTyping, .sub-flair, .sidebar-link, .sidebar--heading, .game_screen-title, .casino-game-leaderboard-info, .ChatMessage-timestamp, .card-title, .form-inline.search .form-control, .post-actions .list-inline, .UserInput-input, .ChatMessage-bottom, .comment-box, .comment-text, .comment-actions, .UserInput-emoji, .ChatMessage-actions-button, .UserList, .text-success, .slots_reels, .lottery-page--wrapper, .table, .flipped-playing-card, .sidebar-wpd--flairs, .sidebar--heading {
     text-shadow: -1px 1px #000000, -2px 2px #ff0000, -5px 5px ##000000, -6px 6px #ff0000;
     color: white !important;
     animation-name: chat !important;
@@ -45,4 +45,8 @@ nav a, .navbar-toggler {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 3s ease infinite !important;
-} 
+}
+
+div#main-content-col, div.container, .App-content, .App-side {
+    background-color: rgba(0,0,0,0.5) !important;
+}
