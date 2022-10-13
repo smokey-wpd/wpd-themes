@@ -45,4 +45,4 @@ nav a, .navbar-toggler {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 3s ease infinite !important;
-}
+} 
