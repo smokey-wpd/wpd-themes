@@ -45,7 +45,7 @@ nav a {
 75% { filter: drop-shadow(-1px 1px 5px black); }
 100% { filter: drop-shadow(-1px 1px 5px #ff7b00); }
 }
-div#main-content-col, div.container, .App-content, .App-side {
+div#main-content-col, .App-content, .App-side {
     background-color: rgba(0,0,0,0.5) !important;
 }
 :root {
@@ -86,6 +86,6 @@ background-position: center !important;
 .arrow-up::before, .arrow-up::after, .arrow-down::before, .arrow-down::after  {
     content: "" !important;
 }
-.slots_reel {
+.slots_reel, .casinoGameResult {
     background-image: url("https://i.postimg.cc/d0K70vvK/Untitled-1.png") !important;
 }
