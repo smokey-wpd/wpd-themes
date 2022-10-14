@@ -1,0 +1,91 @@
+.notif-count {
+  background-image: repeating-linear-gradient45deg, #ff7b00, black, #ff7b00, black, #ff7b00, black, #ff7b00, black) !important;
+  animation: spooky 3s ease infinite !important;
+  background-size: 800% 800% !important;
+  -webkit-text-fill-color: white;
+}
+nav a {
+  background-image: repeating-linear-gradient(45deg, #ff7b00, black, #ff7b00, black, #ff7b00, black, #ff7b00, black);
+  text-align: revert;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: spooky 3s ease infinite !important;
+}
+@keyframes spooky { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+ .arrow-up, .arrow-down, .card-title, .text, .comment-text, .ChatMessage-bottom, .UserList-heading, .ChatMessage-timestamp, .UserInput-input, .UsersTyping, .ChatHeading, .navbar-toggler-icon, .post-actions, .score  {
+-webkit-text-fill-color: #ff7b00;
+}
+
+.sub-flair, .sidebar-wpd--flairs { 
+-webkit-text-fill-color: white;
+  background-image: repeating-linear-gradient(45deg, #ff7b00, black, #ff7b00, black, #ff7b00, black, #ff7b00, black);
+  animation: spooky 10s ease infinite !important;
+  background-size: 800% 800%;
+}
+
+.sidebar-wpd--flairs, .sidebar-link, .post-meta, .UserInput-input, .form-control, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar  {
+    animation-name: chat !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: alternate !important;
+    animation-timing-function: linear !important;
+    -webkit-background-clip: text;
+}
+ .comment-actions, .QuotedMessageLink, .UserInput-emoji, .ChatMessage-actions-button {
+-webkit-text-fill-color: #805ad5 !important;
+
+}
+@keyframes chat {
+    0% { filter: drop-shadow(-1px 1px 5px #ff7b00);  }
+    25% { filter: drop-shadow(-1px 1px 5px black); }
+    50% { filter: drop-shadow(-1px 1px 5px #ff7b00); }
+75% { filter: drop-shadow(-1px 1px 5px black); }
+100% { filter: drop-shadow(-1px 1px 5px #ff7b00); }
+}
+div#main-content-col, div.container, .App-content, .App-side {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+:root {
+    --primary: #805ad5;
+}
+.post-title a:visited {
+-webkit-text-fill-color: #805ad5 !important;
+}
+.App, div.container {
+background-image: url(https://i.postimg.cc/J0yRPWpY/4.png);
+        min-height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background-image: url(https://i.postimg.cc/dtwjgt2y/dribble-3.gif);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrow-up {
+    background-image: url("https://watchpeopledie.co/e/marseyolantern.webp") !important;
+background-repeat: no-repeat !important;
+background-position: center !important;
+}
+
+.arrow-down {
+display:none !important;
+}
+
+.arrow-up, .arrow-down {
+    background-size: contain !important;
+    width:40px !important;
+    height:40px;
+    padding: 0 !important;
+    opacity:0.7;
+}
