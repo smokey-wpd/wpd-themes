@@ -28,7 +28,7 @@ nav a {
   background-size: 800% 800%;
 }
 
-.sidebar-wpd--flairs, .sidebar-link, .post-meta, .UserInput-input, .form-control, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar  {
+.sidebar-wpd--flairs, .sidebar-link, .post-meta, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar  {
     animation-name: chat !important;
     animation-duration: 2s !important;
     animation-iteration-count: infinite !important;
