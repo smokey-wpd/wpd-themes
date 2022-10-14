@@ -1,4 +1,4 @@
-.notif-count {
+.notif-count, .flipped-playing-card {
   background-image: repeating-linear-gradient45deg, #ff7b00, black, #ff7b00, black, #ff7b00, black, #ff7b00, black) !important;
   animation: spooky 3s ease infinite !important;
   background-size: 800% 800% !important;
@@ -17,7 +17,7 @@ nav a {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
- .arrow-up, .arrow-down, .card-title, .text, .comment-text, .ChatMessage-bottom, .UserList-heading, .ChatMessage-timestamp, .UserInput-input, .UsersTyping, .ChatHeading, .navbar-toggler-icon, .post-actions, .score  {
+ .arrow-up, .arrow-down, .card-title, .text, .comment-text, .ChatMessage-bottom, .UserList-heading, .ChatMessage-timestamp, .UserInput-input, .UsersTyping, .ChatHeading, .navbar-toggler-icon, .post-actions, .score, .game_screen-title,  .text-success, .casino-game-leaderboard-info, .table, .lottery-page--stats {
 -webkit-text-fill-color: #ff7b00;
 }
 .sub-flair, .sidebar-wpd--flairs { 
@@ -26,7 +26,7 @@ nav a {
   animation: spooky 10s ease infinite !important;
   background-size: 800% 800%;
 }
-.sidebar-wpd--flairs, .sidebar-link, .post-meta, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar  {
+.sidebar-wpd--flairs, .sidebar-link, .post-meta, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar, .game_screen-title, .slots_reels, .lottery-page--image, .lottery-page--stats  {
     animation-name: chat !important;
     animation-duration: 2s !important;
     animation-iteration-count: infinite !important;
@@ -34,7 +34,7 @@ nav a {
     animation-timing-function: linear !important;
     -webkit-background-clip: text;
 }
- .comment-actions, .QuotedMessageLink, .UserInput-emoji, .ChatMessage-actions-button {
+ .comment-actions, .QuotedMessageLink, .UserInput-emoji, .ChatMessage-actions-button, .post-title a:visited, .text-danger {
 -webkit-text-fill-color: #805ad5 !important;
 
 }
@@ -50,9 +50,6 @@ div#main-content-col, div.container, .App-content, .App-side {
 }
 :root {
     --primary: #805ad5;
-}
-.post-title a:visited {
--webkit-text-fill-color: #805ad5 !important;
 }
 .App, div.container {
 background-image: url(https://i.postimg.cc/J0yRPWpY/4.png);
@@ -88,4 +85,7 @@ background-position: center !important;
 }
 .arrow-up::before, .arrow-up::after, .arrow-down::before, .arrow-down::after  {
     content: "" !important;
+}
+.slots_reel {
+    background-image: url("https://i.postimg.cc/d0K70vvK/Untitled-1.png") !important;
 }
