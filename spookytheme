@@ -1,10 +1,4 @@
-.notif-count, .flipped-playing-card {
-  background-image: repeating-linear-gradient45deg, #ff7b00, black, #ff7b00, black, #ff7b00, black, #ff7b00, black) !important;
-  animation: spooky 3s ease infinite !important;
-  background-size: 800% 800% !important;
-  -webkit-text-fill-color: white;
-}
-nav a {
+nav a, .notif-count{
   background-image: repeating-linear-gradient(45deg, #ff7b00, white, #ff7b00, white, #ff7b00, white, #ff7b00, white);
   text-align: revert;
   background-size: 800% 800%;
@@ -17,7 +11,7 @@ nav a {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
- .arrow-up, .arrow-down, .card-title, .text, .comment-text, .ChatMessage-bottom, .UserList-heading, .ChatMessage-timestamp, .UserInput-input, .UsersTyping, .ChatHeading, .navbar-toggler-icon, .post-actions, .score, .game_screen-title,  .text-success, .casino-game-leaderboard-info, .table, .lottery-page--stats {
+ .arrow-up, .arrow-down, .card-title, .text, .comment-text, .ChatMessage-bottom, .UserList-heading, .ChatMessage-timestamp, .UsersTyping, .ChatHeading, .navbar-toggler-icon, .post-actions, .score, .game_screen-title,  .text-success, .casino-game-leaderboard-info, .table, .lottery-page--stats, .ChatMessage-actions-button {
 -webkit-text-fill-color: #ff7b00;
 }
 .sub-flair, .sidebar-wpd--flairs { 
@@ -26,7 +20,7 @@ nav a {
   animation: spooky 10s ease infinite !important;
   background-size: 800% 800%;
 }
-.sidebar-wpd--flairs, .sidebar-link, .post-meta, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UserList, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar, .game_screen-title, .slots_reels, .lottery-page--image, .lottery-page--stats  {
+.sidebar-wpd--flairs, .sidebar-link, .post-meta, .comment-box, .score, .ChatMessage-bottom, .ChatMessage-timestamp, .UsersTyping, .ChatHeading, .UserInput-emoji, .ChatMessage-actions-button, .navbar-toggler-icon, .mobile-bottom-navigation-bar, .game_screen-title, .slots_reels, .lottery-page--image, .lottery-page--stats {
     animation-name: chat !important;
     animation-duration: 2s !important;
     animation-iteration-count: infinite !important;
@@ -34,7 +28,7 @@ nav a {
     animation-timing-function: linear !important;
     -webkit-background-clip: text;
 }
- .comment-actions, .QuotedMessageLink, .UserInput-emoji, .ChatMessage-actions-button, .post-title a:visited, .text-danger {
+ .comment-actions, .QuotedMessageLink, .UserInput-emoji, .post-title a:visited, .text-danger {
 -webkit-text-fill-color: #805ad5 !important;
 
 }
@@ -45,14 +39,14 @@ nav a {
 75% { filter: drop-shadow(-1px 1px 5px black); }
 100% { filter: drop-shadow(-1px 1px 5px #ff7b00); }
 }
-div#main-content-col, .App-content, .App-side {
+div#main-content-col, .App-content, .App-side, .App-bottom-wrapper  {
     background-color: rgba(0,0,0,0.5) !important;
 }
 :root {
-    --primary: #805ad5;
+    --primary: #2c103e;
 }
 .App, div.container {
-background-image: url(https://i.postimg.cc/J0yRPWpY/4.png);
+background-image: url(https://i.postimg.cc/d0crYY3z/4.png);
         min-height: 500px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,8 +54,8 @@ background-image: url(https://i.postimg.cc/J0yRPWpY/4.png);
 }
 body {
     background-image: url(https://i.postimg.cc/dtwjgt2y/dribble-3.gif);
-    min-height: 500px;
     background-attachment: fixed;
+    min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,6 +80,7 @@ background-repeat: no-repeat !important;
     content: "" !important;
 }
 .slots_reel {
+text-color: #805ad5;
     background-image: url("https://i.postimg.cc/d0K70vvK/Untitled-1.png") !important;
 }
 html body #header--icon {
@@ -96,4 +91,7 @@ img[alt*="site banner"] {
 }
  img.mb-4 {
 content: url('https://media.giphy.com/media/QuxqWk7m9ffxyfoa0a/giphy.webp');
+}
+.mobile-bottom-navigation-bar {
+position: fixed; !important;
 }
