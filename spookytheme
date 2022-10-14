@@ -79,7 +79,7 @@ background-position: center !important;
 }
 
 .arrow-down {
-display:none !important;
+    background-image: url("https://watchpeopledie.co/e/marsey666.webp") !important;
 }
 
 .arrow-up, .arrow-down {
