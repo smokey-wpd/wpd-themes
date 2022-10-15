@@ -87,7 +87,7 @@ html body #header--icon {
 content: url('https://watchpeopledie.co/e/marseypumpkin.webp');
 }
 img[alt*="site banner"] {
-    display: none
+    content: url('https://i.postimg.cc/rFcCtm8z/sdgasdgsa.png');
 }
  img.mb-4 {
 content: url('https://media.giphy.com/media/QuxqWk7m9ffxyfoa0a/giphy.webp');
