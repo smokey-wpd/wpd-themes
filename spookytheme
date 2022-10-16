@@ -45,7 +45,7 @@ div#main-content-col, .App-content, .App-side, .App-bottom-wrapper  {
 :root {
     --primary: #805ad5;
 }
-.App, div.container {
+.App {
 background-image: url(https://i.postimg.cc/d0crYY3z/4.png);
         min-height: 500px;
     background-repeat: no-repeat;
