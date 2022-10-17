@@ -86,9 +86,3 @@ text-color: #805ad5;
 html body #header--icon {
 content: url('https://watchpeopledie.co/e/marseypumpkin.webp');
 }
- img.mb-4 {
-content: url('https://media.giphy.com/media/QuxqWk7m9ffxyfoa0a/giphy.webp');
-}
-#mobile-bottom-navigation-bar {
-background-image: url(https://i.postimg.cc/d0crYY3z/4.png);
-}
