@@ -1,0 +1,73 @@
+:root {
+    --primary: black;
+}
+.arrow-up {
+    background-image: url("https://watchpeopledie.tv/e/marseyagreefast.webp") !important;
+background-repeat: no-repeat !important;
+
+}
+.arrow-down {
+    background-image: url("https://watchpeopledie.tv/e/marseysob.webp") !important;
+background-repeat: no-repeat !important;
+}
+.arrow-up, .arrow-down {
+   background-size: contain !important;
+    width:38px !important;
+    height:35px;
+    padding: 0 !important;
+    opacity:0.7;
+}
+.arrow-up::before, .arrow-up::after, .arrow-down::before, .arrow-down::after  {
+    content: "" !important;
+}
+
+html body #header--icon {
+content: url('https://i.postimg.cc/Vkt6xFMY/16562341289855325.webp');
+}
+@keyframes srdd {
+   0% { filter: sepia(100%) saturate(500%) hue-rotate(0deg) drop-shadow(-1px 1px 5px red);  }
+    9% { filter: sepia(100%) saturate(500%) hue-rotate(30deg)  drop-shadow(-1px 1px 5px orange); }
+    18% { filter: sepia(100%) saturate(500%) hue-rotate(60deg)  drop-shadow(-1px 1px 5px yellow); }
+    27% { filter: sepia(100%) saturate(500%) hue-rotate(90deg)  drop-shadow(-1px 1px 5px lime); }
+    36% { filter: sepia(100%) saturate(500%) hue-rotate(120deg)  drop-shadow(-1px 1px 5px MediumTurquoise); }
+45% { filter: sepia(100%) saturate(500%) hue-rotate(150deg)  drop-shadow(-1px 1px 5px DarkTurquoise); }
+54% { filter: sepia(100%) saturate(500%) hue-rotate(180deg)  drop-shadow(-1px 1px 5px aqua); }
+63% { filter: sepia(100%) saturate(500%) hue-rotate(210deg)  drop-shadow(-1px 1px 5px dodgerblue); }
+72% { filter: sepia(100%) saturate(500%) hue-rotate(240deg)  drop-shadow(-1px 1px 5px blue); }
+81% { filter: sepia(100%) saturate(500%) hue-rotate(270deg)  drop-shadow(-1px 1px 5px indigo); }
+90% { filter: sepia(100%) saturate(500%) hue-rotate(300deg)  drop-shadow(-1px 1px 5px magenta); }
+100% { filter: sepia(100%) saturate(500%) hue-rotate(330deg)  drop-shadow(-1px 1px 5px firebrick); }
+}
+
+.srd {
+   animation-name: srdd !important;
+    animation-duration: 2s !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: alternate !important;
+    animation-timing-function: linear !important;
+  background-size: 800% 800%;
+}
+
+div#main-content-col, .App-content, .App-side,  .jumbotron-fluid, .card, .col, .sidebar-content, .container {
+background-color: black !important;
+}
+
+.card, .form-control, #sidebar-content, .comment, .navbar {
+border-width: 1px !important;
+border-color: red !important;
+border-style: ridge !important;
+}
+
+.container-fluid, .navbar, .comment, .comment-section{
+background-color: black !important;
+}
+
+.input-group-text {
+-webkit-text-fill-color: red;
+}
+
+body, .my-auto {
+background-color: black !important;
+}
+
+ {display: none;}
